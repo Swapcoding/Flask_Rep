@@ -1,0 +1,11 @@
+---
+application:
+  name: "flask-rep"
+  project: "My Proj"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-flask-rep"
+  routes:
+  - application_name: "flask-rep"
+    paths:
+    - "/*"
